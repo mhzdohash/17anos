@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(14, 177, 177);
+}
+
+body{
+    background-color: rgb(75, 20, 126);
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+img{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    width: 50%;}
+
+    h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
