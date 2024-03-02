@@ -35,27 +35,22 @@
     <strong><center><h2>Mensagem final </h2></center></strong>
         <h3>Ao final de tudo, conclui que você é realmente o amor da minha vida e quero passar os nossos próximos 100 anos de vida juntos </h3>
 
-        <center> <input type="button" value="😈" onClick="alerta()" style="width: 120px; height: 70px;"></center>
+        <center> <button onClick="alerta()" style="width: 120px; height: 70px;">😈</button></center>
         <p id="mira"></p>
         <script>
-            
+
             function alerta(){
-                var Botão = prompt("Casa comigo? 🥺🥺")
-                document.getElementById('mira').innerHTML;    
+                var pergunta = prompt("Casa comigo? 🥺🥺") ;
+
+                if(pergunta === "sim"){
+                    document.getElementById('mira').innerText = "Já que você disse sim toma 💐";
+                } else if(pergunta === "não"){
+                    document.getElementById('mira').innerText = "TERMINAMOS";
+                } else {
+                    document.getElementById('mira').innerText = "É pra colocar sim ou não 😠"
+                }
             }
-                
-                if(Botão == "sim"){
-                    console.log(`Já que você disse ${Botão} toma 💐`)
-                }
-                
-                else(Botão == "não");{
-                    console.log("TERMINAMOS")
-                }
-
-           
-            
-
-</script>
+        </script>
 
 
 
